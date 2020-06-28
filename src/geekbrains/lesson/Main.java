@@ -22,7 +22,7 @@ public class Main {
             Integer res = hm.get(x);
             if (res > 1) {
                 hm.remove(x);
-                System.out.println(x +"=" + res);
+                System.out.println(x +"= " + res);
             }
 
         }
